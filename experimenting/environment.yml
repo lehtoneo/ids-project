@@ -1,0 +1,13 @@
+name: ids-proj
+channels:
+  - defaults
+dependencies:
+  - notebook
+  - pandas
+  - scipy
+  - librosa
+  - numpy
+  - pysoundfile
+  - scikit-learn
+  - pytorch
+prefix: C:\Users\ossij\anaconda3\envs\ids-proj
