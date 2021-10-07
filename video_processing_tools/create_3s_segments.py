@@ -1,6 +1,8 @@
 import os
-# This code created three second segments from an input video and stores them in athe specified output path
+# This code created three second segments from an input video and stores them in ...\data\{video_name}_segments\
 ##### You need to create the folder structure manually #####
+
+# (Example) With these paths as specified you would need to create "D:\gitProjects\ids-project\data\lockdown_math_announcement_480p_segments\"
 
 # Paths 
 video_path = "D:\\gitProjects\\ids-project\\data\\"

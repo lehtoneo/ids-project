@@ -1,5 +1,5 @@
 import os
-# This code extracts audio from each .mp4 file in a specified folder and stores them in ./audio 
+# This code extracts audio from each .mp4 file in a specified folder and stores them in ./audio (you need to create it manually)
 ##### You need to create the folder structure manually #####
 # Paths
 folder_name = "D:\\gitProjects\\ids-project\\data\\lockdown_math_announcement_480p_segments\\"
