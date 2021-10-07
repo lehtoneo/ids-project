@@ -11,7 +11,7 @@ output_path = video_path + video_name.split('.')[0] + "_segments\\"
 
 start = 0
 end = start + 3
-while start < 60:
+while start < 60: # Segments the first 60s change it manually as needed
     # ffmpeg command to split the video to three second clip
     command = 'ffmpeg -i ' + video_path + video_name \
         + ' -ss ' \
