@@ -2,7 +2,7 @@ import os
 # This code extracts audio from each .mp4 file in a specified folder and stores them in ./audio (you need to create it manually)
 ##### You need to create the folder structure manually #####
 # Paths
-folder_name = "D:\\gitProjects\\ids-project\\data\\lockdown_math_announcement_480p_segments\\"
+folder_name = "D:\\gitProjects\\ids-project\\data\\e_to_the_pi_i_for_dummies_v240P_segments\\"
 
 folder = os.fsencode(folder_name)
 for file in os.listdir(folder):

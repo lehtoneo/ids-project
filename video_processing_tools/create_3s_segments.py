@@ -6,12 +6,12 @@ import os
 
 # Paths 
 video_path = "D:\\gitProjects\\ids-project\\data\\"
-video_name = "lockdown_math_announcement_480p.mp4"
+video_name = "e_to_the_pi_i_for_dummies_v240P.mp4"
 output_path = video_path + video_name.split('.')[0] + "_segments\\"
 
 start = 0
 end = start + 3
-while start < 60: # Segments the first 60s change it manually as needed
+while start < 600: # Segments the first 60s change it manually as needed
     # ffmpeg command to split the video to three second clip
     command = 'ffmpeg -i ' + video_path + video_name \
         + ' -ss ' \
@@ -23,6 +23,5 @@ while start < 60: # Segments the first 60s change it manually as needed
     # Move the three second clip forward
     start +=3
     end = start + 3
-    #print(command)
     # Execute the command
     os.system(command)
