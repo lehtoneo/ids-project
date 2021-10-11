@@ -2,3 +2,6 @@
 *Audio_Speech*
 .ipynb_checkpoints
 *.pt
+*cremad-wav
+
+experimenting/test_yt_data/*/*
