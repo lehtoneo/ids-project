@@ -1,0 +1,15 @@
+Confusion matrix (rows: true classes; columns: predicted classes):
+
+[[ 56   2   0  15   1]
+ [  7 112   4  10   6]
+ [  1   4 130   5   0]
+ [ 10   3   5 140  17]
+ [  0   6   3  19 121]]
+
+Classification accuracy for each class:
+
+0 (neutral): 0.7567567567567568
+1 (happy): 0.8057553956834532
+2 (angry): 0.9285714285714286
+3 (sad): 0.8
+4 (fearful): 0.8120805369127517
